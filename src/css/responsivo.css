@@ -1,0 +1,31 @@
+@media (max-width: 640px) {
+
+    :root {
+        --corp: #333;
+        --corb: #fdfdfdb0;
+        --cor1: #024959;
+        --cor2: #01403A;
+        --cor3: #038C33;
+        --cor4: #025920;
+        --cor5: #96F288;    
+    }
+    
+    .container {
+        max-width: 331px;
+        margin: 3rem auto;        
+        padding: 1.5rem;
+        border-radius: 15px;
+    }
+
+    button {
+        background-color: var(--cor2);
+        color: var(--cor3);
+        border: 1px solid var(--cor1);
+        padding: 0.2rem 0.4rem;
+        font-size: 0.75rem;
+        cursor: pointer;
+        justify-content: center;
+        align-items: center;
+        transition: 0.4s;
+    }
+}
